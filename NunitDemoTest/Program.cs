@@ -15,7 +15,7 @@ namespace Example
         const double tol = 0.001;
         Postage p1;
 
-        [SetUp]
+        [SetUp] 
         public void Init()
         {
             p1 = new Postage();
